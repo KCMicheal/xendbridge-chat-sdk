@@ -12,7 +12,7 @@ Using npm :
 
 Using yarn :
 
-    $ npm install xendbridgechatsdk
+    $ yarn add xendbridgechatsdk
 
 ## Usage
 
