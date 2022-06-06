@@ -17,10 +17,10 @@ Using yarn :
 ## Usage
 
     # using require
-    const { getMessageHistory, sendMessage } = require('xendbridgechatsdk');
+    const { getMessageHistory, sendMessage } = require('xendbridgechat-sdk');
     
     # using import
-    import { getMessageHistory, sendMessgae } from 'xendbridgechatsdk';
+    import { getMessageHistory, sendMessgae } from 'xendbridgechat-sdk';
 
 ## Examples
 XendBridge Chat SDK provides only two distinct functions. GetMessageHistory and SendMessage. 
