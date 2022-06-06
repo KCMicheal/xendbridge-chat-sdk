@@ -8,11 +8,11 @@ This is the official chat SDK for the XendBridge application. This connects a us
 ## Installation
 Using npm :
 
-    $ npm install xendbridgechatsdk
+    $ npm install xendbridgechat-sdk
 
 Using yarn :
 
-    $ yarn add xendbridgechatsdk
+    $ yarn add xendbridgechat-sdk
 
 ## Usage
 
