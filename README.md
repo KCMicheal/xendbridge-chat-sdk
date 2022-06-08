@@ -3,7 +3,7 @@ This is the official chat SDK for the XendBridge application. This connects a us
 
 ## Author
 
- - [@kcmciheal](https://github.com/KCMicheal)
+ - [@kcmicheal](https://github.com/KCMicheal)
 
 ## Installation
 Using npm :
@@ -20,7 +20,7 @@ Using yarn :
     const { getMessageHistory, sendMessage } = require('xendbridgechat-sdk');
     
     # using import
-    import { getMessageHistory, sendMessgae } from 'xendbridgechat-sdk';
+    import { getMessageHistory, sendMessage } from 'xendbridgechat-sdk';
 
 ## Examples
 XendBridge Chat SDK provides only two distinct functions. GetMessageHistory and SendMessage. 
@@ -50,7 +50,7 @@ The **sendMessage** takes three arguments as well, being an object called ChatHu
 	    EmailAddress: "youruseremailaddress@domain.com",
 	    Comment: comment, //the user's message from the client side
 	    SentBy: 2, //this is always 2 representing the third party user
-	    Recipient: 1, //this is always 1 representing all entites involved
+	    Recipient: 1, //this is always 1 representing all entities involved
 	    Base64Attachment: "", //this is the image in base64 format
 	    DisputeReference: disputeRef, //the unique dispute reference
 	    SentAt: new Date().toISOString() //this is the time in timestamp
