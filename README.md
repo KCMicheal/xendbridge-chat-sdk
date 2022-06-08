@@ -25,7 +25,9 @@ Using yarn :
 ## Examples
 XendBridge Chat SDK provides only two distinct functions. GetMessageHistory and SendMessage. 
 
-The **getMessageHistory** takes the three arguments which are a public key, dispute reference, which are all strings and a function called **getAllChats**.
+The **getMessageHistory** takes the three arguments which are a public key, dispute reference, which are all strings and a function called **getAllChats**. 
+
+**getAllChats** is a function that must be called as an argument in both **getMessageHistory** and **sendMessage**. It automatically fetches the history for you after a message is being sent or when an initial connection to the hub is made.
 
     //implement a better and safer way for getting the following values
     const disputeRef = "AdhdfoGjfo8jorp";
