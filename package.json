@@ -1,15 +1,19 @@
 {
   "name": "xendbridgechat-sdk",
-  "version": "1.0.4",
-  "description": "",
+  "version": "1.0.5",
+  "description": "This is the official chat SDK for the XendBridge application. This connects a user to the system and gets history or messages and also can send them.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["chat", "signalR", "hubs"],
   "author": "egwunwokekc@gmail.com",
   "license": "ISC",
   "dependencies": {
     "@microsoft/signalr": "^6.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xendbridge/xendbridge-chat-sdk.git"
   }
 }
