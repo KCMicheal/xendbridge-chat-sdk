@@ -2,6 +2,7 @@ import * as signalR from "@microsoft/signalr";
 
 var connection;
 
+//connection to hub
 const createConnection = async (
   ChatHubAddCommentModel,
   publicKey,
@@ -19,6 +20,7 @@ const createConnection = async (
 
     await connection.start();
 
+    //listens for message from server side and returns the object sent
     await connection.on("ReceiveMessageHandlerForThirdParty", async () => {
       await connection
         .invoke(
@@ -79,6 +81,7 @@ const sendMessage = async (
     getAllChats
   );
 
+  //invokes method on the server
   await newConnection
     .invoke("SendMessageForThirdParty", ChatHubAddCommentModel, publicKey)
     .then((resp) => {
